@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418C854E17EDE8F800259432 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418C854D17EDE8F800259432 /* Cocoa.framework */; };
+		418C855817EDE8F800259432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 418C855617EDE8F800259432 /* InfoPlist.strings */; };
+		418C855A17EDE8F800259432 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C855917EDE8F800259432 /* main.m */; };
+		418C855E17EDE8F800259432 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 418C855C17EDE8F800259432 /* Credits.rtf */; };
+		418C856117EDE8F800259432 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C856017EDE8F800259432 /* SMAppDelegate.m */; };
+		418C856417EDE8F800259432 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418C856217EDE8F800259432 /* MainMenu.xib */; };
+		418C856617EDE8F800259432 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418C856517EDE8F800259432 /* Images.xcassets */; };
+		418C856D17EDE8F800259432 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418C856C17EDE8F800259432 /* XCTest.framework */; };
+		418C856E17EDE8F800259432 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418C854D17EDE8F800259432 /* Cocoa.framework */; };
+		418C857617EDE8F800259432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 418C857417EDE8F800259432 /* InfoPlist.strings */; };
+		418C857817EDE8F800259432 /* SyncMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C857717EDE8F800259432 /* SyncMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418C856F17EDE8F800259432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418C854217EDE8F800259432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418C854917EDE8F800259432;
+			remoteInfo = SyncMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418C854A17EDE8F800259432 /* SyncMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C854D17EDE8F800259432 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		418C855017EDE8F800259432 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		418C855117EDE8F800259432 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		418C855217EDE8F800259432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		418C855517EDE8F800259432 /* SyncMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncMe-Info.plist"; sourceTree = "<group>"; };
+		418C855717EDE8F800259432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		418C855917EDE8F800259432 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		418C855B17EDE8F800259432 /* SyncMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SyncMe-Prefix.pch"; sourceTree = "<group>"; };
+		418C855D17EDE8F800259432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		418C855F17EDE8F800259432 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		418C856017EDE8F800259432 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		418C856317EDE8F800259432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		418C856517EDE8F800259432 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		418C856B17EDE8F800259432 /* SyncMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C856C17EDE8F800259432 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		418C857317EDE8F800259432 /* SyncMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncMeTests-Info.plist"; sourceTree = "<group>"; };
+		418C857517EDE8F800259432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		418C857717EDE8F800259432 /* SyncMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418C854717EDE8F800259432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C854E17EDE8F800259432 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C856817EDE8F800259432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C856E17EDE8F800259432 /* Cocoa.framework in Frameworks */,
+				418C856D17EDE8F800259432 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418C854117EDE8F800259432 = {
+			isa = PBXGroup;
+			children = (
+				418C855317EDE8F800259432 /* SyncMe */,
+				418C857117EDE8F800259432 /* SyncMeTests */,
+				418C854C17EDE8F800259432 /* Frameworks */,
+				418C854B17EDE8F800259432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418C854B17EDE8F800259432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418C854A17EDE8F800259432 /* SyncMe.app */,
+				418C856B17EDE8F800259432 /* SyncMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418C854C17EDE8F800259432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				418C854D17EDE8F800259432 /* Cocoa.framework */,
+				418C856C17EDE8F800259432 /* XCTest.framework */,
+				418C854F17EDE8F800259432 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		418C854F17EDE8F800259432 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				418C855017EDE8F800259432 /* AppKit.framework */,
+				418C855117EDE8F800259432 /* CoreData.framework */,
+				418C855217EDE8F800259432 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		418C855317EDE8F800259432 /* SyncMe */ = {
+			isa = PBXGroup;
+			children = (
+				418C855F17EDE8F800259432 /* SMAppDelegate.h */,
+				418C856017EDE8F800259432 /* SMAppDelegate.m */,
+				418C856217EDE8F800259432 /* MainMenu.xib */,
+				418C856517EDE8F800259432 /* Images.xcassets */,
+				418C855417EDE8F800259432 /* Supporting Files */,
+			);
+			path = SyncMe;
+			sourceTree = "<group>";
+		};
+		418C855417EDE8F800259432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418C855517EDE8F800259432 /* SyncMe-Info.plist */,
+				418C855617EDE8F800259432 /* InfoPlist.strings */,
+				418C855917EDE8F800259432 /* main.m */,
+				418C855B17EDE8F800259432 /* SyncMe-Prefix.pch */,
+				418C855C17EDE8F800259432 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		418C857117EDE8F800259432 /* SyncMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				418C857717EDE8F800259432 /* SyncMeTests.m */,
+				418C857217EDE8F800259432 /* Supporting Files */,
+			);
+			path = SyncMeTests;
+			sourceTree = "<group>";
+		};
+		418C857217EDE8F800259432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418C857317EDE8F800259432 /* SyncMeTests-Info.plist */,
+				418C857417EDE8F800259432 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418C854917EDE8F800259432 /* SyncMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C857B17EDE8F800259432 /* Build configuration list for PBXNativeTarget "SyncMe" */;
+			buildPhases = (
+				418C854617EDE8F800259432 /* Sources */,
+				418C854717EDE8F800259432 /* Frameworks */,
+				418C854817EDE8F800259432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncMe;
+			productName = SyncMe;
+			productReference = 418C854A17EDE8F800259432 /* SyncMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418C856A17EDE8F800259432 /* SyncMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C857E17EDE8F800259432 /* Build configuration list for PBXNativeTarget "SyncMeTests" */;
+			buildPhases = (
+				418C856717EDE8F800259432 /* Sources */,
+				418C856817EDE8F800259432 /* Frameworks */,
+				418C856917EDE8F800259432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418C857017EDE8F800259432 /* PBXTargetDependency */,
+			);
+			name = SyncMeTests;
+			productName = SyncMeTests;
+			productReference = 418C856B17EDE8F800259432 /* SyncMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418C854217EDE8F800259432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ali Moeeny";
+				TargetAttributes = {
+					418C856A17EDE8F800259432 = {
+						TestTargetID = 418C854917EDE8F800259432;
+					};
+				};
+			};
+			buildConfigurationList = 418C854517EDE8F800259432 /* Build configuration list for PBXProject "SyncMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418C854117EDE8F800259432;
+			productRefGroup = 418C854B17EDE8F800259432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418C854917EDE8F800259432 /* SyncMe */,
+				418C856A17EDE8F800259432 /* SyncMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418C854817EDE8F800259432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C855817EDE8F800259432 /* InfoPlist.strings in Resources */,
+				418C856617EDE8F800259432 /* Images.xcassets in Resources */,
+				418C855E17EDE8F800259432 /* Credits.rtf in Resources */,
+				418C856417EDE8F800259432 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C856917EDE8F800259432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C857617EDE8F800259432 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418C854617EDE8F800259432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C856117EDE8F800259432 /* SMAppDelegate.m in Sources */,
+				418C855A17EDE8F800259432 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C856717EDE8F800259432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C857817EDE8F800259432 /* SyncMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418C857017EDE8F800259432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418C854917EDE8F800259432 /* SyncMe */;
+			targetProxy = 418C856F17EDE8F800259432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		418C855617EDE8F800259432 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C855717EDE8F800259432 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		418C855C17EDE8F800259432 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C855D17EDE8F800259432 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		418C856217EDE8F800259432 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C856317EDE8F800259432 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		418C857417EDE8F800259432 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C857517EDE8F800259432 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418C857917EDE8F800259432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		418C857A17EDE8F800259432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		418C857C17EDE8F800259432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncMe/SyncMe-Prefix.pch";
+				INFOPLIST_FILE = "SyncMe/SyncMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		418C857D17EDE8F800259432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncMe/SyncMe-Prefix.pch";
+				INFOPLIST_FILE = "SyncMe/SyncMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		418C857F17EDE8F800259432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SyncMe.app/Contents/MacOS/SyncMe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncMe/SyncMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SyncMeTests/SyncMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		418C858017EDE8F800259432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SyncMe.app/Contents/MacOS/SyncMe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncMe/SyncMe-Prefix.pch";
+				INFOPLIST_FILE = "SyncMeTests/SyncMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418C854517EDE8F800259432 /* Build configuration list for PBXProject "SyncMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C857917EDE8F800259432 /* Debug */,
+				418C857A17EDE8F800259432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418C857B17EDE8F800259432 /* Build configuration list for PBXNativeTarget "SyncMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C857C17EDE8F800259432 /* Debug */,
+				418C857D17EDE8F800259432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		418C857E17EDE8F800259432 /* Build configuration list for PBXNativeTarget "SyncMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C857F17EDE8F800259432 /* Debug */,
+				418C858017EDE8F800259432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418C854217EDE8F800259432 /* Project object */;
+}
