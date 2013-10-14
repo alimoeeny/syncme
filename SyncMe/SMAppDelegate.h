@@ -32,5 +32,7 @@
 
 - (IBAction)sourcePathChanges:(NSTextFieldCell *)sender;
 - (IBAction)destPathChanges:(NSTextFieldCell *)sender;
+- (IBAction)chooseSourcePath:(NSButton *)sender;
+- (IBAction)chooseDestPath:(NSButton *)sender;
 
 @end

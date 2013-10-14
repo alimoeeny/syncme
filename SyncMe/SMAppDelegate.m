@@ -389,5 +389,39 @@
     NSLog(@"-->%@", path);
 }
 
+- (IBAction)chooseSourcePath:(NSButton *)sender {
+    NSOpenPanel * op = [NSOpenPanel openPanel];
+    [op setTitle:@"Choose This side"];
+    [op setCanChooseDirectories:YES];
+    [op setCanChooseFiles:NO];
+    [op setCanCreateDirectories:YES];
+    [op setCanHide:YES];
+    [op setDirectoryURL:[NSURL URLWithString:_sourcePath]];
+    [op beginSheetModalForWindow:[[NSApplication sharedApplication] mainWindow] completionHandler:^(NSInteger result) {
+        _sourcePath = [[NSString stringWithFormat:@"%@",[op URL]] stringByReplacingOccurrencesOfString:@"file://localhost" withString:@""];
+        [[NSUserDefaults standardUserDefaults] setValue:_sourcePath forKey:@"destpath"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [_sourcePathTextField setStringValue:_sourcePath];
+        NSLog(@"-->%@", _sourcePath);
+    }];
+}
+
+- (IBAction)chooseDestPath:(NSButton *)sender {
+    NSOpenPanel * op = [NSOpenPanel openPanel];
+    [op setTitle:@"Choose That side"];
+    [op setCanChooseDirectories:YES];
+    [op setCanChooseFiles:NO];
+    [op setCanCreateDirectories:YES];
+    [op setCanHide:YES];
+    [op setDirectoryURL:[NSURL URLWithString:_destPath]];
+    [op beginSheetModalForWindow:[[NSApplication sharedApplication] mainWindow] completionHandler:^(NSInteger result) {
+        _destPath = [[NSString stringWithFormat:@"%@",[op URL]] stringByReplacingOccurrencesOfString:@"file://localhost" withString:@""];
+        [[NSUserDefaults standardUserDefaults] setValue:_destPath forKey:@"destpath"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [_destPathTextField setStringValue:_destPath];
+        NSLog(@"-->%@", _destPath);
+    }];
+}
+
 
 @end

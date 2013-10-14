@@ -465,6 +465,7 @@
 				418C857D17EDE8F800259432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418C857E17EDE8F800259432 /* Build configuration list for PBXNativeTarget "SyncMeTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				418C858017EDE8F800259432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

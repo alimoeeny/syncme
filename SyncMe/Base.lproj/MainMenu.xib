@@ -765,6 +765,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="chooseSourcePath:" target="494" id="L29-dZ-XyT"/>
+                        </connections>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NNv-C6-pHS">
                         <rect key="frame" x="1185" y="533" width="45" height="32"/>
@@ -773,6 +776,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="chooseDestPath:" target="494" id="CJq-fM-544"/>
+                        </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0Pt-y0-HDu">
                         <rect key="frame" x="20" y="607" width="131" height="17"/>
