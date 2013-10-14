@@ -11,5 +11,10 @@
 @interface SMAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) NSString * sourcePath;
+@property (nonatomic, strong) NSString * destPath;
+@property (strong) NSTask *task;
+@property (strong) NSFileHandle * outFile;
+@property (strong) NSFileHandle * errorFile;
 
 @end
